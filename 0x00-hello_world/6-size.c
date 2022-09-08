@@ -5,6 +5,9 @@
  */
 int main(void)
 {
+	char;
+	int;
+	long;
 	printf("%s");
 	return (0);
 }
