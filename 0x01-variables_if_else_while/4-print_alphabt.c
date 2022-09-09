@@ -6,7 +6,7 @@
 int main(void)
 {
 	char lowerCase, not, nott;
-	
+
 	not = 'e';
 	nott = 'q';
 
