@@ -9,9 +9,11 @@ int main(void)
 	char fCase;
 
 	for (lowerCase = 'a'; lowerCase <= 'd'; lowerCase++)
+	{
 	for (fCase = 'f'; fCase <= 'p'; fCase++)
 	{
 	putchar(lowerCase);
+	}
 	}
 	putchar('\n');
 	return (0);
