@@ -7,7 +7,7 @@ int main(void)
 {
 	char lowerCase;
 
-	for (lowerCase = 'a'; lowerCase <= 'd'; lowerCase++)
+	for (lowerCase = 'a'; lowerCase <= 'd'; lowerCase++ || lowerCase = 'f'; lowerCase <= 'p'; lowercase++)
 	{
 	putchar(lowerCase);
 	}
