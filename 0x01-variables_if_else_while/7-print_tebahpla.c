@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints the stdout
+ * main - print stdout
  * Return: 0 if successful
  */
 int main(void)
 {
-	int a;
+	char low;
 
-	for (a = '0'; a <= '9'; a++)
+	for (low = 'z'; low > 'a'; low--)
 	{
-	putchar(a);
+	putchar(low);
 	}
 	putchar('\n');
 	return (0);
