@@ -12,7 +12,7 @@ int main(void)
 
 	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 	{
-	if (lowerCase != not && lowCase != nott)
+	if (lowerCase != not && lowerCase != nott)
 	putchar(lowerCase);
 	}
 	putchar('\n');
