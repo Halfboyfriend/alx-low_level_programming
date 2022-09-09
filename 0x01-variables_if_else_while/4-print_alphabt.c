@@ -5,9 +5,7 @@
  */
 int main(void)
 {
-	char lowerCase;
-	char not;
-	char nott
+	char lowerCase, not, nott;
 	
 	not = 'e';
 	nott = 'q';
