@@ -9,9 +9,15 @@ int main(void)
 {
 	int a;
 
-	for (a = 01; a <= 90; a++)
+	for (a = 0; a < 90; a++)
 	{
-	putchar(a);
+	putchar((a / 90) + '0');
+	putchar((a % 10) + '0');
+	if (a != 90)
+	{
+	putchar(',');
+	putchar(' ');
+	}
 	}
 	putchar('\n');
 	return (0);
