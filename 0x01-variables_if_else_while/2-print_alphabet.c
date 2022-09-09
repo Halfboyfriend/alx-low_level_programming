@@ -11,6 +11,6 @@ int main(void)
 	{
 	putchar(alpha);
 	printf("\n");
-	{
+	}
 	return (0);
 }
