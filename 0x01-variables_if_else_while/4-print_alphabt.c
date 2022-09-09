@@ -6,14 +6,16 @@
 int main(void)
 {
 	char lowerCase;
-	char fCase;
+	char not;
+	char nott
+	
+	not = 'e';
+	nott = 'q';
 
-	for (lowerCase = 'a'; lowerCase <= 'd'; lowerCase++)
+	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 	{
-	for (fCase = 'f'; fCase <= 'p'; fCase++)
-	{
+	if (lowerCase != not && lowCase != nott)
 	putchar(lowerCase);
-	}
 	}
 	putchar('\n');
 	return (0);
