@@ -6,7 +6,7 @@
 int main(void)
 {
 	char lowerCase;
-	char fCase
+	char fCase;
 
 	for (lowerCase = 'a'; lowerCase <= 'd'; lowerCase++ && fCase = 'f'; fCase <= 'p'; fCase++)
 	{
