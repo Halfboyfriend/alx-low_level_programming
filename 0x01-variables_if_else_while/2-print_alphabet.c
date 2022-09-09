@@ -10,7 +10,6 @@ int main(void)
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 	putchar(alpha);
-	putchar(alpha);
 	}
-	return (0);
+	return (1);
 }
