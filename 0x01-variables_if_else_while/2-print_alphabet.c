@@ -10,7 +10,6 @@ int main(void)
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 	putchar(alpha);
-	printf("\n");
 	}
 	return (0);
 }
