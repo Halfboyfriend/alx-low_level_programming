@@ -3,7 +3,7 @@
 /**
  * _abs - Declare a function passing an arg
  * Return: 0 if successsful
- * @int: initialized to 0
+ * @c: initialized to 0
  */
 int _abs(int c)
 {
