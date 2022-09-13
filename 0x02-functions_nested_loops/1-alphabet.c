@@ -5,6 +5,8 @@
  */
 int main(void)
 {
+	char low;
+
 	for (low = 'a'; low < 'z'; low++)
 	_putchar('%c\n', low);
 	print_alphabet();
