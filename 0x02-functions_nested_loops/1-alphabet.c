@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - prints out the stdout
+ * print_alphabet - prints out the stdout
  * Return: 0 if successful
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
