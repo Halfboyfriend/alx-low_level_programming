@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_alphabet - prints out the stdout
- * Return: 0 if successful
+ * Return: Nothing
  */
 void print_alphabet(void)
 {
@@ -10,5 +10,4 @@ void print_alphabet(void)
 	for (c = 'a'; c <= 'z'; c++)
 	_putchar(c);
 	_putchar('\n');
-	return (0);
 }
