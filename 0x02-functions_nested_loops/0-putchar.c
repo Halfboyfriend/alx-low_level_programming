@@ -1,13 +1,18 @@
-#include <stdio.h>
-#include <main.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 /**
  * main - prints the stdout
  * Return: 0 if successful
  */
 int main(void)
 {
-	putchar('_putchar\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
-)
+}
