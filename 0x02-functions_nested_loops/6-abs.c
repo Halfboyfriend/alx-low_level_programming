@@ -5,7 +5,7 @@
  * Return: 0 if successsful
  * @int: initialized to 0
  */
-int _abs(int)
+int _abs(int c)
 {
 	int c;
 
