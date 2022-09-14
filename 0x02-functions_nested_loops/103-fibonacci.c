@@ -5,23 +5,22 @@
  */
 int main(void)
 {
-	long int i, a, b, result;
+	int i, j, sum;
+	int a;
 
-	a = 1;
-	b = 2;
-	for (i = 1; i <= 89; ++i)
+	i = 1;
+	j = 2;
+	sum = 0;
+	while (j < 4000000)
 	{
-	if (a != 4000000)
+	if (j % 2 == 0)
 	{
-	printf("%ld, ", a);
+	sum += j;
 	}
-	else
-	{
-	printf("%ld\n", a);
+	a = j;
+	j += i;
+	i = a;
 	}
-	result = a + b;
-	a = b;
-	b = result;
-	}
+	printf("%d\n", sum);
 	return (0);
 }
