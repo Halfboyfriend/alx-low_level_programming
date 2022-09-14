@@ -21,5 +21,4 @@ void times_table(void)
 	_putchar((cal % 10) + '0');
 	}
 	_putchar('\n');
-
 }
