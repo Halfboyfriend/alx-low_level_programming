@@ -8,7 +8,6 @@ int main(void)
 	int i;
 
 	i = 98;
-	positive_or_negative(i);
 	if (i <= 98)
 	{
 	printf("%d is positive\n", i);
@@ -17,4 +16,5 @@ int main(void)
 	{
 	printf("%d is negative\n", i);
 	}
+	return (0);
 }
