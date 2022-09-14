@@ -11,7 +11,7 @@ int main(void)
 	c = 2;
 	for (a = 1; a <= 50; ++a)
 	{
-	if (b != 30000000000)
+	if (b != 20365011074)
 	{
 	printf("%ld, ", b);
 	}
