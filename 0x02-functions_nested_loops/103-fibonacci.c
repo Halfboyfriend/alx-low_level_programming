@@ -13,11 +13,11 @@ int main(void)
 	{
 	if (a != 4000000)
 	{
-	printf("%d, ", a);
+	printf("%ld, ", a);
 	}
 	else
 	{
-	printf("%d\n", a);
+	printf("%ld\n", a);
 	}
 	result = a + b;
 	a = b;
