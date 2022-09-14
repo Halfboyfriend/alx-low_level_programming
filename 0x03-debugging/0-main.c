@@ -7,14 +7,7 @@ int main(void)
 {
 	int i;
 
-	i = 98;
-	if (i <= 98)
-	{
-	printf("%d is positive\n", i);
-	}
-	else
-	{
-	printf("%d is negative\n", i);
-	}
+	i = 0;
+	positive_or_negative(i);
 	return (0);
 }
