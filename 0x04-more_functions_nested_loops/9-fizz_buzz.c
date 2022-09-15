@@ -11,19 +11,19 @@ int main(void)
 	{
 	if (i % 15 == 0)
 	{
-	_putchar('FizzBuzz ');
+	printf("Fizzbuzz ");
 	}
 	else if (i % 5 == 0)
 	{
-	_putchar('Buzz ');
+	printf("Buzz ");
 	}
 	else if (i % 3 == 0)
 	{
-	_putchar('Fizz ');
+	printf("Fizz ");
 	}
 	else
 	{
-	_putchar(i);
+	printf("%d ", i);
 	}
 	return (0);
 }
