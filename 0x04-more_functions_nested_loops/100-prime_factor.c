@@ -16,4 +16,5 @@ int main(void)
 	num = num / count;
 	}
 	}
+	return (0);
 }
