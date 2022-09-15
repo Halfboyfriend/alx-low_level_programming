@@ -7,7 +7,7 @@ int main(void)
 {
 	int num, count;
 
-	num = 1231952;
+	num = 612852475143;
 	for (count = 2; num > 1; count++)
 	{
 	while (num % count == 0)
