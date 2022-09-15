@@ -3,7 +3,7 @@
  * more_numbers - function to print out numbers
  * @void: as no retun value
  */
-void more_numbers(void)
+void more_numbers(void);
 {
 	int i, j;
 
