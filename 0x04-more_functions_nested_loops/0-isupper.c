@@ -6,14 +6,9 @@
  */
 int _isupper(int c);
 {
-	if (_isupper(c))
+	if (c >= 65 && c <= 90)
 	{
-	_putchar('%c: %d\n', c, _isupper(c));
 	return (1);
 	}
-	else
-	{
-	_putchar('%c: %d\n', c, _isupper(c));
 	return (0);
-	}
 }
