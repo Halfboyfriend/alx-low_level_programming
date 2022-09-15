@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-	int num, count;
-
-	num = 612852475143;
-	for (count = 2; num > 1; count++)
+	long i, num = 612852475143;
+	
+	for (i = 2; i <= num; i++)
 	{
-	while (num % count == 0)
+	if (num % i == 0)
 	{
-	printf("%d ", count);
-	num = num / count;
+	num = num / i;
+	i--;
 	}
 	}
+	printf("lu\n", i);
 	return (0);
 }
