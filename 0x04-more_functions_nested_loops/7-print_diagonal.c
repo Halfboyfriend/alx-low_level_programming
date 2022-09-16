@@ -2,6 +2,7 @@
 /**
  * print_diagonal - function declared
  * @n: interger assigned
+ * Return: no return
  */
 void print_diagonal(int n)
 {
@@ -13,7 +14,7 @@ void print_diagonal(int n)
 	{
 	_putchar(' ');
 	}
-	_putchar(98);
+	_putchar(92);
 	if (i < (n -1))
 	_putchar('\n');
 	}
