@@ -14,11 +14,5 @@ char *_strcpy(char *dest, char *src)
 	abc++;
 	}
 	*(dest + abc) = '\0';
-
-	if (dest == NULL)
-	{
-	return NULL;
-	}
-	
 	return (dest);
 }
