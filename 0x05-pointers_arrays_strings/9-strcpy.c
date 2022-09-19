@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strcpy - function to copy a string
  * @src: assinged int
@@ -7,12 +6,7 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	if (dest == NULL)
-	{
-	return NULL;
-	}
-	
-	char abc = 0;
+	int abc = 0;
 	
 	while (*(src + abc) != '\0')
 	{
