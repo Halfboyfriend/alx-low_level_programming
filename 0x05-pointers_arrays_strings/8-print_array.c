@@ -1,4 +1,4 @@
-#include "main.h
+#include "main.h"
 #include <stdio.h>
 /**
  * print_array - function declared to print arrays
