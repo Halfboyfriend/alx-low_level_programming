@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strlen - function declared
  * @s: initialized integer
