@@ -15,7 +15,7 @@ char *leet(char *c)
 		{
 			if (c[a] == letters[b])
 			{
-				c[a] = rep[b / 2];
+				c[a] = letters[b / 2];
 				b = 9;
 			}
 		}
