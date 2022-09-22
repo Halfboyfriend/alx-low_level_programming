@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strncat - function declared to print two concatenated strings
  * @dest: assigned char variable
@@ -10,7 +11,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int l, j;
 
-	l = 0;
+	l = strlen(dest);
 
 	for (j = 0; j < n && src[j] != '\0'; j++)
 	{
