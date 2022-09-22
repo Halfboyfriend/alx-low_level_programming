@@ -6,7 +6,6 @@
  **/
 char *leet(char *c)
 {
-	int hey[10];
 	int a, b, rep[] =  {'4', '3', '0', '7', '1'};
 	int letters[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L' };
 
@@ -16,7 +15,7 @@ char *leet(char *c)
 		{
 			if (c[a] == letters[b])
 			{
-				c[a] = hey[b / 2];
+				c[a] = rep[b / 2];
 				b = 9;
 			}
 		}
