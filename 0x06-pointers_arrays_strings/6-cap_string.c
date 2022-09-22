@@ -20,7 +20,7 @@ char *cap_string(char *c)
 		for (j = 0; j <= 13; j++)
 		{
 
-			if (c[i] == sprt[b])
+			if (c[i] == sprt[j])
 			{
 				j = 13;
 				cpt = 32;
