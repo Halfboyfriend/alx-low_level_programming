@@ -7,8 +7,8 @@
 void print_number(int n)
 {
 	unsigned int i;
-	
-	if (n < 0 )
+
+	if(n < 0)
 	{
 		_putchar('-');
 		i = -n;
@@ -21,7 +21,7 @@ void print_number(int n)
 	{
 		print_number(i / 10);
 	}
-	else 
+	else
 	{
 	_putchar((i % 10) + '0');
 	}
