@@ -8,12 +8,11 @@
 char *_strchr(char *s, char c)
 {
 	char *sum = s - 1;
-	
+
 	do {
 		sum++;
 		if (*sum == c)
 		return (sum);
-	}
-	while (*sum != '\0');
+	}while (*sum != '\0');
 	return (0);
 }
