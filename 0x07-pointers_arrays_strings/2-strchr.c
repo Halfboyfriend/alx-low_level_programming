@@ -13,6 +13,6 @@ char *_strchr(char *s, char c)
 		sum++;
 		if (*sum == c)
 		return (sum);
-	}while (*sum != '\0');
+	} while (*sum != '\0');
 	return (0);
 }
