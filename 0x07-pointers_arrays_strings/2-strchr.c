@@ -7,12 +7,13 @@
  **/
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
-	{
-		if (*s == c)
-		{
-		return (s);
-		}
+	char *sum = s - 1;
+	
+	do {
+		sum++;
+		if (*sum == c)
+		return (sum);
 	}
-	return (NULL);
+	while (*sum != '\0');
+	return (0);
 }
