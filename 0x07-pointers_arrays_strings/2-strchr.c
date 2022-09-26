@@ -7,8 +7,12 @@
  **/
 char *_strchr(char *s, char c)
 {
-	unsigned char i = c;
-	
-	while (*s && (unsigned char)*s != c)
-	return (char *)(c == (unsigned char)*s ? s : NULL);
+	while (*s != '\0')
+	{
+		if (*s == c)
+		{
+		return (s);
+		}
+	}
+	return (NULL);
 }
