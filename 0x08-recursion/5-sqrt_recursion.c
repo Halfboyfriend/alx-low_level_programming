@@ -4,10 +4,9 @@
  * _sqrt_recursion - funtion that returns square root
  * @n: int variable
  * @cal: indirect recursive function
- * Return: values && -1i
+ * Return: values && -1
  **/
-int sqr(int n, int cal)
-{
+int sqr(int n, int cal){
 	if (cal * cal == n)
 	return (cal);
 	else if (cal * cal < n)
@@ -16,7 +15,6 @@ int sqr(int n, int cal)
 	return (-1);
 }
 
-int _sqrt_recursion(int n)
-{
+int _sqrt_recursion(int n){
 	return (sqr(n, 1));
 }
