@@ -6,15 +6,15 @@
  * @cal: indirect recursive function
  * Return: values && -1
  **/
-int square(int n, int val)
+int square(int n, int cal)
 {
-	if (val * val == n)
-	return (val);
-	if (val * val < n)
-	return (square(n, val + 1));
+	if (cal * cal == n)
+	return (cal);
+	if (cal * cal < n)
+	return (square(n, cal + 1));
 	return (-1);
 }
-int _sqrt_recursion(int n) 
+int _sqrt_recursion(int n)
 {
-	return(square(n, 1));
+	return (square(n, 1));
 }
