@@ -5,7 +5,7 @@
  * @n: int
  * @i: int
  * Return: value 1 and 0
- **/
+ */
 int prime(int n, int i)
 {
 	if (i > 9)
@@ -18,7 +18,7 @@ int prime(int n, int i)
   * is_prime_number - function check if its prime
   * @n: int
   * Return: prime
-  **/
+  */
 int is_prime_number(int n)
 {
 	if (n == 1 || n == -1 || n == 0)
