@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sqr - funtion
+ * square - function
  * _sqrt_recursion - funtion that returns square root
  * @n: int variable
  * @cal: indirect recursive function
