@@ -14,8 +14,9 @@ int prime(int n, int i)
 	return (0);
 }
  /**
-  * is_prime_number - function
+  * is_prime_number - function check if its prime
   * @n: int
+  * Return: prime
   **/
 int is_prime_number(int n)
 {
