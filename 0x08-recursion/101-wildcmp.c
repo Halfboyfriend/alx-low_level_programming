@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * wildcmp - Compare two strins allowing for wildcard char
+ * wildcmp - function to Compare two strings allowing for wildcard
+ * @s1: String being compared
  *
- * @s: String being compared
- *
- * @s: string being compared against
+ * @s2: string being compared against
  *
  * Return: 1 if considered identical, 0 otherwise
  */
