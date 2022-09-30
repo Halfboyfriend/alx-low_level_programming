@@ -4,13 +4,3 @@
  * @s: assigned int
  * Return: int
  */
-int _atoi(char *s)
-{
-	int n;
-	unsigned int a = 0;
-
-	if (n == 0)
-	{
-	return (a);
-	}
-}
