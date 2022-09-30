@@ -5,7 +5,7 @@
  * @argv: pointer string
  * Return: 0
  **/
-int main(int argc, char *argv[])
+int main(int argc, char **argv[])
 {
 	(void)argc;
 
