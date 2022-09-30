@@ -9,6 +9,6 @@ int main(int argc, char **argv)
 {
 	(void)argv;
 
-	prinf("argc = %d\n", argc - 1)
+	prinf("argc = %d\n", argc - 1);
 	return (0);
 }
