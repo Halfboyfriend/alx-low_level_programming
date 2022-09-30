@@ -5,8 +5,10 @@
  * @argv: pointer string vecore
  * Return: o
  **/
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	prinf("argc = %d\n", argc)
+	(void)argv;
+
+	prinf("argc = %d\n", argc - 1)
 	return (0);
 }
