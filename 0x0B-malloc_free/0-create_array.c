@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-	return (ptr);
+	//return (ptr);
 	}
 	free(ptr);
 }
