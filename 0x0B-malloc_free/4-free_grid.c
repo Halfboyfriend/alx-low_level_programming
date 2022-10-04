@@ -3,14 +3,14 @@
 #include <stdlib.h>
 /**
  * free_grid - function that frees a 2 dimentional grid
- * @**grid: pointer
+ * @grid: pointer
  * @height: int var
  * Return: no return type
  */
 void free_grid(int **grid, int height)
 {
 	int a;
-	
+
 	for (a = 0; a < height; a++)
 		free(grid[a]);
 	free(grid);
