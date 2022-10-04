@@ -9,10 +9,26 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	int *ptr;
+	char *ptr;
+	unsigned int i;
+	
+	if (size == 0)
+	{
+	return (NULL);
+	}
 
-	ptr = (int *)malloc(c * sizeof(int));
-	if (size == NULL)
-	exit (98);
+	ptr = malloc(size * sizeof(char));
+
+	if (ptr == NULL)
+	{
+	return (NULL);
+	}
+	else
+	{
+		for (i = 0; i < size; i++)
+		{
+			ptr[i] = c;
+		}
+	}
 	return (ptr);
 }
