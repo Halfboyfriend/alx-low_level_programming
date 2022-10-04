@@ -32,5 +32,9 @@ int **alloc_grid(int width, int height)
 		for (c = 0; c < width; c++)
 			grid[b][c] = 0;
 	}
+	if (grid == NULL)
+	{
+	return (NULL);
+	}
 	return (grid);
 }
