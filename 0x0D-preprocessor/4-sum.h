@@ -4,8 +4,8 @@
 /**
  * define - function that sum two numbers
  * SUM: macro function name
- * x: first argument
- * y: second argument
+* Desc: Header file that defines a function-like macro SUM(x, y)
+ *       that computes the sum of x and y.
  */
 
 #define SUM(x, y) ((x) + (y))
