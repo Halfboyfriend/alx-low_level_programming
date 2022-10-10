@@ -3,7 +3,7 @@
 
 /*
  * File: dog.h
- * Auth: Brennan D Baraban
+ * Auth: Owoyemi Idris
  * Desc: Header file that defines a new type struct dog.
  */
 
@@ -23,7 +23,7 @@ struct dog
  * my_dog - Typedef for struct dog
  */
 
-typedef struct dog dog_t
+typedef struct dog my_dog
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
