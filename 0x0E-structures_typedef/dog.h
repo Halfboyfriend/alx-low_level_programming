@@ -21,6 +21,7 @@ struct dog
 	char *owner;
 };
 /**
+ * struct dog - function
  * my_dog - Typedef for struct dog
  */
 typedef struct dog my_dog
