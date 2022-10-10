@@ -1,3 +1,8 @@
+/*
+ * File: 1-init_dog.c
+ * Auth: Owoyemi Idris
+ */
+
 #include "dog.h"
 #include <stdio.h>
 /**
