@@ -4,7 +4,7 @@
 /**
  * define - function
  * ABS: macro name
- * x: macro value
+ * (x): macro value
  */
 
 #define ABS(x) ((x) < 0 ? (-x) : (x))
