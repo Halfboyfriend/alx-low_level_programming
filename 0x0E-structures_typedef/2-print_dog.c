@@ -1,3 +1,7 @@
+/*
+ * File: 2-print_dog.c
+ * Auth: Owoyemi Idris
+ */
 #include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
