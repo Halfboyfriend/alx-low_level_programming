@@ -1,5 +1,5 @@
-#ifndef 4-sum.h
-#define 4-sum.h
+#ifndef SUM_H
+#define SUM_H
 
 /**
  * define - function that sum two numbers
