@@ -1,10 +1,10 @@
-#ifndef 1-pi.h
-#define 1-pi.h
+#ifndef PI.H
+#define PI.H
 
 /**
  * define - header funtion
  * PI: macro name
- * token_value: 3.14...
+ * DESC: token_value 3.14...
  */
 
 #define PI 3.14159265359
