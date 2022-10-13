@@ -46,7 +46,6 @@ void print_float(va_list arg)
 /**
  * print_string - Prints a string.
  * @arg: A list of arguments
- * @Return: 0
  */
 void print_string(va_list arg)
 {
@@ -61,6 +60,11 @@ void print_string(va_list arg)
 	}
 	printf("%s", str);
 }
+/**
+ * print_all - functiom that print all format
+ * @format: format specifier
+ * @...: unknown arg
+ */
 
 void print_all(const char * const format, ...)
 {
