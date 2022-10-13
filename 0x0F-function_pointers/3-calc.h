@@ -1,6 +1,13 @@
 #ifndef CALC_H
 #define CALC_H
 
+/*
+ * File: 3-calc.h
+ * Auth: Owoyemi Idris
+ * Desc: Header file containing all structures and
+ *       prototypes used by the 3-main.c program.
+ */
+
 /**
  * struct op - A struct op
  * @op: the operator
@@ -9,6 +16,7 @@
 typedef struct op
 {
     char *op;
+    
     int (*f)(int a, int b);
 } op_t;
 
