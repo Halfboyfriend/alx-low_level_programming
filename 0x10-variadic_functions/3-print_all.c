@@ -20,7 +20,7 @@ void print_char(va_list arg)
 {
 	char word;
 
-	word = va_arg(word, int);
+	word = va_arg(arg, int);
 	printf("%c", word);
 }
 /**
@@ -31,7 +31,7 @@ void print_int(va_list arg)
 {
 	int num;
 
-	num = va_arg(num, int);
+	num = va_arg(arg, int);
 	printf("%d", num);
 }
 /**
@@ -43,7 +43,7 @@ void print_float(va_list arg)
 {
 	float dnum;
 
-	dnum = va_arg(dnum, double);
+	dnum = va_arg(arg, double);
 	printf("%f", dnum);
 }
 
@@ -69,7 +69,7 @@ void print_string(va_list arg)
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	int i = 0; j = 0;
+	int i = 0, j = 0;
 	char *separator = "";
 
 	printer_t funcs[] = {
