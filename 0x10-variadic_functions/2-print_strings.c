@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_string -  function that prints strings on a new line
+ * print_strings -  function that prints strings on a new line
  * @separator: the string to be printed
  * @n: number of string passed
  * @...: unknown inputs
