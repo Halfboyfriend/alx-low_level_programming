@@ -2,8 +2,8 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * print_numbers -  function that prints numbers, followed by a new line
- * @seperator: string to be printed
+ * print_numbers -  function that prints numbers,on a new line
+ * @separator: string to be printed
  * @n: num of int passed
  * @...: unknown parameters to be printed
  */
